@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Move the object based on W, A, S, and D keys
-var moveSpeed = 10; // Adjust the value for desired movement speed
+var moveSpeed = 3; // Adjust the value for desired movement speed
 
 // Move Forward
 if keyboard_check(ord("W"))
