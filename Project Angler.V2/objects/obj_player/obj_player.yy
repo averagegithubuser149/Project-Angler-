@@ -30,8 +30,8 @@
   "properties": [],
   "solid": true,
   "spriteId": {
-    "name": "Sprite2",
-    "path": "sprites/Sprite2/Sprite2.yy",
+    "name": "Sprite12",
+    "path": "sprites/Sprite12/Sprite12.yy",
   },
   "spriteMaskId": null,
   "visible": true,

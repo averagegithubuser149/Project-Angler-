@@ -26,3 +26,20 @@ else {
         obj_gui_ekey.visible = false;
     }
 }
+
+//Obj_m stuff
+if instance_exists(obj_m) && distance_to_object(obj_m) < detectionDistance {
+    // Create or activate the GUI element
+    if !instance_exists(obj_gui_ekey13) {
+        instance_create(guiX, guiY, obj_gui_ekey13);
+    }
+    else {
+        obj_gui_ekey13.visible = true;
+    }
+}
+else {
+    // Deactivate or destroy the GUI element
+    if instance_exists(obj_gui_ekey13) {
+        obj_gui_ekey13.visible = false;
+    }
+}
