@@ -26,7 +26,7 @@
   "origin": 0,
   "parent": {
     "name": "enteties",
-    "path": "folders/Sprites/Debree/enteties.yy",
+    "path": "folders/Sprites/enteties.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

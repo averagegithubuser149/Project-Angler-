@@ -7,7 +7,7 @@
   "bbox_right": 155,
   "bbox_top": 69,
   "bboxMode": 0,
-  "collisionKind": 1,
+  "collisionKind": 0,
   "collisionTolerance": 0,
   "DynamicTexturePage": false,
   "edgeFiltering": false,
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Debree",
-    "path": "folders/Sprites/Debree.yy",
+    "name": "debri",
+    "path": "folders/Sprites/debri.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

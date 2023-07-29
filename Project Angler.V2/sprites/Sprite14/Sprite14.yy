@@ -27,8 +27,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "Project Angler.V2",
-    "path": "Project Angler.V2.yyp",
+    "name": "enteties",
+    "path": "folders/Sprites/enteties.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

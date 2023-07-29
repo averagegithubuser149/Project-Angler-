@@ -41,3 +41,11 @@ if keyboard_check_pressed(ord("E")) {
     }
 }
 
+// Step Event of obj_gui_ekey
+// Assuming "obj_gui_ekey" is the object representing the 'E' key
+
+// Check if the "e" key is pressed
+if keyboard_check_pressed(ord("E")) {
+    // Create an alarm to change rooms after 200 frames
+    alarm[0] = 200;
+}
