@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "group1",
-    "path": "folders/Rooms/group1.yy",
+    "name": "OTher",
+    "path": "folders/Objects/OTher.yy",
   },
   "parentObjectId": null,
   "persistent": false,

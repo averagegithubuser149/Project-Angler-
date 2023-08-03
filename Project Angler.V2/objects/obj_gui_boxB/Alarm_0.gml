@@ -1,3 +1,4 @@
+/*
 // Clear the displayed text
 dialogueText = "";
 

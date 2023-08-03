@@ -8,7 +8,7 @@ if keyboard_check_pressed(ord("E")) {
 			//Cause elements to appear
          obj_gui_additionalb.visible = !obj_gui_additionalb.visible;
 		 
-		  obj_gui_box.visible = !obj_gui_box.visible;
+		
     }
     else {
         // Calculate the position of the additional GUI element based on the screen origin
@@ -18,8 +18,8 @@ if keyboard_check_pressed(ord("E")) {
         // Create the additional GUI element
         instance_create(additionalGuiX, additionalGuiY, obj_gui_additionalb);
 		
-		instance_create(additionalGuiX, additionalGuiY, obj_gui_box);
-		
+		/*instance_create(additionalGuiX, additionalGuiY, obj_gui_box);
+		*/
     }
 }
 

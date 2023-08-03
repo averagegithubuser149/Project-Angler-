@@ -4,3 +4,6 @@ if(collision_circle (x, y, 15, obj_player, true, true)) {
 }
 else 
 	image_alpha = 1; 
+	
+	/*
+if(collision_circle (x, y, 15, obj_player, true, true))

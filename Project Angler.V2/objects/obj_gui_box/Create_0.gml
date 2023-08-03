@@ -1,3 +1,5 @@
+/*
+
 // In the Create Event of obj_gui_box
 font = font_desired; // Replace "font_desired" with the actual name of the font resource you created (e.g., "font_desired").
 
@@ -21,7 +23,7 @@ messageSpeed = 0.3;
 
 //message properties
 
-enum MSG {
+enum MSG{
 TEXT,
 NAME,
 IMAGE

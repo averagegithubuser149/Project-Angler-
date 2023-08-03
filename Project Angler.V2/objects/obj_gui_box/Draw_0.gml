@@ -1,3 +1,4 @@
+/*
 // Draw Event of obj_gui_box
 // This event is responsible for drawing the text within the object
 

@@ -1,13 +1,15 @@
-
 //Arg5
+
 var _x = argument[0];
 var _y = argument[1];
 var _w = argument[2];
 var _h = argument[3];
 var _sprite = argument[4];
 var _subimg = argument[5];
+
+
 //Data
-var cellSize = sprite_get_width(_sprite)/3;
+ var cellSize = sprite_get_width(_sprite)/3;
 
 var mainW = _w - cellSize*2;
 var mainH = _h - cellSize*2;

@@ -1,3 +1,4 @@
+/*
 // Update the text every 2 seconds
 if (updateCounter >= room_speed * 2) {
     // Replace the old dialogue text with new text here

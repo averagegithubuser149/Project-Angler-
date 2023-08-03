@@ -43,8 +43,6 @@
   "resources": [
     {"id":{"name":"Sprite7","path":"sprites/Sprite7/Sprite7.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
-    {"id":{"name":"obj_gui_box20","path":"objects/obj_gui_box20/obj_gui_box20.yy",},},
-    {"id":{"name":"BOX","path":"objects/BOX/BOX.yy",},},
     {"id":{"name":"obj_m","path":"objects/obj_m/obj_m.yy",},},
     {"id":{"name":"Sprite22","path":"sprites/Sprite22/Sprite22.yy",},},
     {"id":{"name":"Sprite18","path":"sprites/Sprite18/Sprite18.yy",},},
