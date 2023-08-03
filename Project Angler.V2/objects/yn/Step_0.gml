@@ -15,11 +15,11 @@ if (keyboard_check_pressed(ord("N"))) {
 switch (choice) {
     case 1:
         // Set the frame to the first frame (index 0) when 'Y' is pressed
-        image_index = 0;
+        image_index = 1;
         break;
     case 2:
         // Set the frame to the second frame (index 1) when 'N' is pressed
-        image_index = 1;
+        image_index = 2;
         break;
     default:
         // Set the frame to the default frame (index 0) when no choice is made
@@ -28,7 +28,7 @@ switch (choice) {
 }
 
 // Check if the player has pressed any key
-if (keyboard_check_pressed(vk_anykey)) {
+if (image_index >0) {
     // Switch to the 'room2' room
     room_goto(room2);
 }
