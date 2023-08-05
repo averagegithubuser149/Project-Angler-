@@ -1,3 +1,6 @@
+
+
+
 // Create Event of obj_gui_ekey
 // Assuming you have set the appropriate value for guiYOffset
 

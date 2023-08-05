@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"76b44af5-c350-4a62-8e79-95199a2cb11b",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"28e62205-c575-44f8-b33e-552a67d82681",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 538,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"e828c9c3-92d1-4326-9c14-77cc5424449d","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"17190083-b493-4f6e-984c-139509d18a44","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"76b44af5-c350-4a62-8e79-95199a2cb11b","path":"sprites/Sprite5/Sprite5.yy",},},},"Disabled":false,"id":"42a4c246-9a92-407e-b9ed-87c60df0e562","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"28e62205-c575-44f8-b33e-552a67d82681","path":"sprites/Sprite5/Sprite5.yy",},},},"Disabled":false,"id":"eb7f9314-f5d8-449e-b4ef-26c5013fc8a5","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

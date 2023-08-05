@@ -1,34 +1,61 @@
-// Variable to store player's choice (1 for 'Y', 2 for 'N', and 0 for no choice)
-var choice = 0;
-
 // Check if 'Y' key is pressed
 if (keyboard_check_pressed(ord("Y"))) {
     choice = 1; // Set the choice to 'Y'
+    chosenFrame = 1;
+    alarm[0] = 50; // Set alarm to 50 frames (1 second)
 }
 
 // Check if 'N' key is pressed
 if (keyboard_check_pressed(ord("N"))) {
     choice = 2; // Set the choice to 'N'
+    chosenFrame = 2;
+    alarm[0] = 50; // Set alarm to 50 frames (1 second)
 }
 
-// Update the frame based on the player's choice
-switch (choice) {
-    case 1:
-        // Set the frame to the first frame (index 0) when 'Y' is pressed
-        image_index = 1;
-        break;
-    case 2:
-        // Set the frame to the second frame (index 1) when 'N' is pressed
-        image_index = 2;
-        break;
-    default:
-        // Set the frame to the default frame (index 0) when no choice is made
-        image_index = 0;
-        break;
+// Check if the alarm is active
+if (alarm[0] > 0) {
+    // Set the frame to the chosen frame
+    image_index = chosenFrame;
+    // Decrement the alarm
+    alarm[0]--;
 }
 
-// Check if the player has pressed any key
-if (image_index >0) {
-    // Switch to the 'room2' room
+/*
+// Variable to keep track of the choice
+var choice = 0;
+// Variable to count frames after a choice is made
+var frameCounter = 0;
+// Variable to store the frame chosen by the player
+var chosenFrame = 0;
+
+// Check if 'Y' key is pressed
+if (keyboard_check_pressed(ord("Y"))) {
+    choice = 1; // Set the choice to 'Y'
+    chosenFrame = 1;
+    // Switch to 'room2'
     room_goto(room2);
+}
+
+// Check if 'N' key is pressed
+if (keyboard_check_pressed(ord("N"))) {
+    choice = 2; // Set the choice to 'N'
+    chosenFrame = 2;
+    // Switch to 'room2'
+    room_goto(room2);
+}
+
+// Check if a choice has been made
+if (choice != 0) {
+    // Set the frame to the chosen frame
+    image_index = chosenFrame;
+    // Increment the frame counter
+    frameCounter++;
+    // Check if 50 frames have passed
+    if (frameCounter >= 510) {
+        // Reset the choice and frameCounter
+        choice = 0;
+        frameCounter = 0;
+        // Return to 'room2'
+        room_goto(room2);
+    }
 }

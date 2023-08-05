@@ -1,3 +1,6 @@
+
+
+/*
 // Check if the "e" key is pressed
 if keyboard_check_pressed(ord("E")) {
     // Check if the additional GUI element exists
@@ -27,7 +30,7 @@ if keyboard_check_pressed(ord("E")) {
 // Check if the "e" key is pressed
 if keyboard_check_pressed(ord("E")) {
     // Check if the additional GUI element doesn't exist
-    if !instance_exists(obj_s) {
+    if !instance_exists(obj_m) {
         // Calculate the position of the additional GUI element based on the screen origin
         var additionalGuiX = 0;  // The x-coordinate of the additional GUI element
         var additionalGuiY = guiYOffset + 50;  // The y-coordinate of the additional GUI element (adjust as needed)
@@ -37,7 +40,7 @@ if keyboard_check_pressed(ord("E")) {
     }
     else {
         // Deactivate or destroy the GUI element
-        obj_s.visible = false;
+        obj_m.visible = false;
     }
 }
 
