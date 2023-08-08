@@ -15,8 +15,8 @@ enum MSG {
 }
 
 //GUI dimensions
-var _guiW = display_get_gui_width()
-var _guiH = display_get_gui_height()
+var _guiW = display_get_gui_width();
+var _guiH = display_get_gui_height();
 
 ///Textbox Dimesnsions
 height = floor(_guiH * 0.45);

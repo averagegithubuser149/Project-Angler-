@@ -20,3 +20,11 @@ if keyboard_check_pressed(ord("R")) {
         instance_create(additionalGuiX, additionalGuiY, obj_gui_additional_m);
     }
 }
+<<<<<<< HEAD
+=======
+else 
+	image_alpha = 1; 
+	
+	/*
+if(collision_circle (x, y, 15, obj_player, true, true))
+>>>>>>> 056e1b810ec845065103079929bc8fb75d05da25
