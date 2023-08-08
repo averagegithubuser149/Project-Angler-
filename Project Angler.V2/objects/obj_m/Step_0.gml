@@ -20,8 +20,6 @@ if keyboard_check_pressed(ord("R")) {
         instance_create(additionalGuiX, additionalGuiY, obj_gui_additional_m);
     }
 }
-<<<<<<< HEAD
-=======
 else 
 	image_alpha = 1; 
 	

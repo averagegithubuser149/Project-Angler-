@@ -3,5 +3,5 @@
 // Check if any key is pressed
 if (keyboard_check_pressed(vk_anykey)) {
     // Switch to the 'room2' room
-    room_goto(room2);
+    room_goto(playroom);
 }
